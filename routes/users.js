@@ -6,7 +6,6 @@ const City = require('../models/cities');
 const User = require('../models/users');
 const {checkBody} = require('../modules/checkBody');
 
-const OWM_API_KEY = 'ce7418650c86eae6629dfcfdda141c14';
 
 //créer un nouvel utilisateur 
 router.post("/signup", (req, res) => {
